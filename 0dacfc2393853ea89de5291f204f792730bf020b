@@ -1,0 +1,8 @@
+Change-Id: I0dacfc2393853ea89de5291f204f792730bf020b
+Code-Review+2: Pavel Kirpichyov <pavel.kirpichyov@gmail.com>
+Verified+1: Pavel Kirpichyov <pavel.kirpichyov@gmail.com>
+Submitted-by: Pavel Kirpichyov <pavel.kirpichyov@gmail.com>
+Submitted-at: Tue, 01 Jan 2013 18:08:09 +0100
+Reviewed-on: http://server.cas-online.nl:8181/322
+Project: androidarmv6/android_device_samsung_tass
+Branch: refs/heads/cm-10.1
