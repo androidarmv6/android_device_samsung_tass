@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:orientation="vertical"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+
+  xmlns:android="http://schemas.android.com/apk/res/android"
+
+  xmlns:prvandroid="http://schemas.android.com/apk/prv/res/android">
+
+    <TextView android:textAppearance="?android:textAppearanceSmall"
+ android:textColor="#ffffffff"
+ android:gravity="center_horizontal"
+ android:background="@*android:color/holo_blue_light"
+ android:padding="4.0dip"
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:text="@string/lockscreen_target_info"
+ android:layout_marginStart="8.0dip"
+ android:layout_marginEnd="8.0dip" />
+
+    <View android:layout_width="fill_parent"
+ android:layout_height="0.0dip"
+ android:layout_weight="0.4" />
+
+    <com.android.internal.widget.multiwaveview.GlowPadView
+ android:gravity="top"
+ android:orientation="horizontal"
+ android:layout_width="fill_parent"
+ android:layout_height="270.0dip"
+ android:layout_weight="0.6"
+ prvandroid:innerRadius="@*android:dimen/glowpadview_inner_radius"
+ android:contentDescription="@*android:string/hour_cap_ampm"
+ prvandroid:targetDescriptions="@*android:array/lockscreen_target_descriptions_unlock_only"
+ prvandroid:directionDescriptions="@*android:array/lockscreen_direction_descriptions"
+ prvandroid:outerRingDrawable="@*android:drawable/ic_lockscreen_phone_activated"
+ prvandroid:pointDrawable="@*android:drawable/ic_lockscreen_google_activated"
+ prvandroid:glowRadius="@*android:dimen/glowpadview_glow_radius"
+ prvandroid:firstItemOffset="@*android:integer/kg_glowpad_rotation_offset"
+ prvandroid:magneticTargets="false"
+ prvandroid:allowScaling="true"
+ prvandroid:targetDrawables="@*android:array/lockscreen_targets_unlock_only"
+ prvandroid:handleDrawable="@*android:drawable/ic_lockscreen_handle_normal"
+ prvandroid:outerRadius="@*android:dimen/glowpadview_target_placement_radius"
+ prvandroid:vibrationDuration="20"
+ prvandroid:snapMargin="@*android:dimen/glowpadview_snap_margin"
+ prvandroid:feedbackCount="1" />
+
+</LinearLayout>
