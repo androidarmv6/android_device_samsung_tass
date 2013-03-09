@@ -41,3 +41,5 @@ TARGET_RECOVERY_FSTAB := device/samsung/tass/recovery/recovery.fstab
 SMALLER_FONT_FOOTPRINT := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/tass/bluetooth
 
+## OTA script extras file (build/tools/releasetools)
+TARGET_OTA_EXTRAS_FILE := device/samsung/tass/releasetools-extras.txt

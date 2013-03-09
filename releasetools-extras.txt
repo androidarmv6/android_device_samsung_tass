@@ -1,0 +1,5 @@
+##Extra apps
+app/Exchange2
+app/Email2
+app/DSPManager
+app/Apollo
