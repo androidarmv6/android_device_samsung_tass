@@ -40,10 +40,13 @@ ro.vold.umsdirtyratio=20
 
 # Dalvik
 dalvik.vm.lockprof.threshold=500
-dalvik.vm.dexopt-flags=m=y
+dalvik.vm.dexopt-flags=v=a,o=v,m=y,u=y
 dalvik.vm.heapstartsize=5m
-dalvik.vm.heapgrowthlimit=24m
+dalvik.vm.heapgrowthlimit=36m
 dalvik.vm.heapsize=64m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapmaxfree=2m
 dalvik.vm.verify_bytecode=false
 dalvik.vm.execution-mode=int:jit
 dalvik.vm.dexopt-data-only=1
