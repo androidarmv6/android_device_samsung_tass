@@ -25,6 +25,9 @@ PRODUCT_COPY_FILES += \
     device/samsung/msm7x27-common/ramdisk/ueventd.msm7x27.rc:root/ueventd.gt-s5570board.rc \
     device/samsung/tass/ramdisk/TASS.rle:root/TASS.rle
 
+## Build the ath6kl-compat driver
+BOARD_WLAN_DEVICE := ath6kl_compat
+
 # Inherit products (Most specific first)
 # tass blobs > samsung common(device/vendor) > other blobs
 $(call inherit-product, vendor/samsung/tass/vendor_blobs.mk)
