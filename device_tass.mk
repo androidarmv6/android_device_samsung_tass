@@ -12,6 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+## Note: this file and all of its includes are parsed before any
+## BoardConfig files. 3.0 Kernel & ath6kl configuration must be set here.
+
+## Build the ath6kl-compat driver
+BOARD_WLAN_DEVICE := ath6kl_compat
+
 ## Wifi
 PRODUCT_PACKAGES += \
     abtfilt \
