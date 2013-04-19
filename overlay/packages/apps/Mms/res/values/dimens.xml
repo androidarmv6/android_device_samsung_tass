@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="message_item_avatar_on_right_text_indent">50.0dip</dimen>
+    <dimen name="message_item_text_padding_left_right">12.0dip</dimen>
+    <dimen name="message_item_text_padding_top">5.0dip</dimen>
+    <dimen name="avatar_width_height">64.0dip</dimen>
+    <dimen name="input_text_height">48.0dip</dimen>
+    <dimen name="input_text_height_adjusted">8.0dip</dimen>
+    <dimen name="mms_inline_attachment_size">178.0dip</dimen>
+    <dimen name="widget_margin_top">0.0dip</dimen>
+    <dimen name="widget_margin_left">0.0dip</dimen>
+    <dimen name="widget_margin_right">0.0dip</dimen>
+    <dimen name="widget_margin_bottom">0.0dip</dimen>
+    <dimen name="qm_message_height">180.0dip</dimen>
+    <dimen name="qm_dialog_button_bar_height">48.0dip</dimen>
+    <dimen name="chip_padding">8.0dip</dimen>
+    <dimen name="chip_height">32.0dip</dimen>
+    <dimen name="chip_text_size">14.0sp</dimen>
+    <dimen name="line_spacing_extra">4.0dip</dimen>
+</resources>
