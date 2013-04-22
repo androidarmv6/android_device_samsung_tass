@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.keyguard.KeyguardPINView androidprv:orientation="vertical" androidprv:id="@id/keyguard_pin_view" androidprv:layout_width="fill_parent" androidprv:layout_height="fill_parent" androidprv:contentDescription="@string/keyguard_accessibility_pin_unlock" androidprv:layout_maxHeight="360.0dip" androidprv:layout_maxWidth="@dimen/keyguard_security_width"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/res/android">
+</com.android.internal.policy.impl.keyguard.KeyguardPINView>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.keyguard.KeyguardPatternView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/keyguard_pattern_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/keyguard_accessibility_pattern_unlock" android:layout_maxHeight="360.0dip" android:layout_maxWidth="@dimen/keyguard_security_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+</com.android.internal.policy.impl.keyguard.KeyguardPatternView>

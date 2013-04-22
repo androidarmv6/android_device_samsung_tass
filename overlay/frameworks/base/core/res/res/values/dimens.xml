@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyguard_lockscreen_outerring_diameter">230.0dip</dimen>
+    
+	<dimen name="glowpadview_target_placement_radius">115.0dip</dimen>
+    
+	<dimen name="glowpadview_glow_radius">60.0dip</dimen>
+    
+	<dimen name="glowpadview_snap_margin">40.0dip</dimen>
+    
+	<dimen name="glowpadview_inner_radius">12.0dip</dimen>
+    
+	<dimen name="keyguard_lockscreen_clock_font_size">60.0dip</dimen>
+    
+	<dimen name="keyguard_lockscreen_status_line_font_size">13.0dip</dimen>
+    
+	<dimen name="keyguard_lockscreen_status_line_clockfont_top_margin">0.0dip</dimen>
+    
+	<dimen name="keyguard_lockscreen_status_line_clockfont_bottom_margin">0.0dip</dimen>
+    
+	<dimen name="kg_status_clock_font_size">60.0dip</dimen>
+    
+	<dimen name="kg_status_date_font_size">14.0dip</dimen>
+    
+	<dimen name="kg_status_line_font_size">12.0dip</dimen>
+    
+	<dimen name="kg_status_line_font_right_margin">16.0dip</dimen>
+    
+	<dimen name="keyguard_security_no_widget_height">400.0dip</dimen>
+    
+	<dimen name="keyguard_avatar_size">48.0dip</dimen>
+</resources>
