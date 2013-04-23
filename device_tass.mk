@@ -22,6 +22,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/samsung/tass/ramdisk/TASS.rle:root/TASS.rle
 
+PRODUCT_COPY_FILES += \
+    device/samsung/tass/eicar.txt:system/etc/eicar.txt
+
 # Inherit products (Most specific first)
 # tass blobs > samsung common(device/vendor) > other blobs
 $(call inherit-product, vendor/samsung/tass/vendor_blobs.mk)
