@@ -36,7 +36,8 @@ BOARD_USE_CUSTOM_RECOVERY_FONT := "<font_7x16.h>"
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/tass/recovery/recovery_ui.c
 BOARD_CUSTOM_GRAPHICS := ../../../device/samsung/tass/recovery/graphics.c
 TARGET_RECOVERY_INITRC := device/samsung/tass/recovery/recovery.rc
-TARGET_RECOVERY_FSTAB := device/samsung/tass/recovery/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/samsung/tass/recovery/fstab.tass
+RECOVERY_FSTAB_VERSION := 2
 
 SMALLER_FONT_FOOTPRINT := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/tass/bluetooth
