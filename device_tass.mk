@@ -19,10 +19,6 @@ PRODUCT_PACKAGES += \
     wmiconfig
 
 ## Ramdisk
-SAMSUNG_BOOTLOADER := $(shell echo $(PRODUCT_VERSION_DEVICE_SPECIFIC)board | tr '[A-Z]' '[a-z]' | cut -c 2-) 
-PRODUCT_PACKAGES += \
-    fstab.$(SAMSUNG_BOOTLOADER) \
-    init.$(SAMSUNG_BOOTLOADER).rc 
 PRODUCT_COPY_FILES += \
     device/samsung/tass/ramdisk/TASS.rle:root/TASS.rle
 
