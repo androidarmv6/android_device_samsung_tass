@@ -21,6 +21,11 @@
 ## Build the ath6kl-compat driver
 BOARD_WLAN_DEVICE := ath6kl_compat
 
+## Camera
+PRODUCT_PACKAGES += \
+    camera.tass \
+    libcamera
+
 ## Ramdisk
 PRODUCT_COPY_FILES += \
     device/samsung/tass/ramdisk/TASS.rle:root/TASS.rle
