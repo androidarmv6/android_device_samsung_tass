@@ -21,7 +21,11 @@ include device/samsung/msm7x27-common/BoardConfigCommon.mk
 
 ## Kernel, bootloader
 TARGET_BOOTLOADER_BOARD_NAME := tass
-TARGET_KERNEL_CONFIG := cyanogenmod_tass_defconfig
+ifneq (eng,$(TARGET_BUILD_VARIANT))
+	TARGET_KERNEL_CONFIG := cyanogenmod_tass_defconfig
+else
+	TARGET_KERNEL_CONFIG := cyanogenmod_tass_recovery_defconfig
+endif
 TARGET_OTA_ASSERT_DEVICE := tass,GT-S5570
 
 ## Recovery
